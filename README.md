@@ -1,12 +1,17 @@
-Pré-requisitos:
+## ⚙️ Pré-requisitos:
 Docker instalado e configurado no sistema.
 
+---
+
 Passo 1: Clone o repositório
+
+---
 
 Passo 2: Navegue até o diretório do projeto
 ```
 cd <nome_do_diretório>
 ```
+---
 
 Passo 3: Construa e inicie os contêineres
 Use o Docker Compose para construir e iniciar os contêineres definidos no arquivo docker-compose.yml
@@ -18,10 +23,10 @@ docker-compose up -d
 
 Este comando irá construir as imagens necessárias e iniciar os contêineres em segundo plano.
 
+---
+
 Passo 4: Acesse a API Flask
 Depois que os contêineres estiverem em execução, você pode acessar a API Flask usando um navegador da web ou uma ferramenta de cliente HTTP
-
----
 
 Para acessar todos os atendimentos acesse:
 
